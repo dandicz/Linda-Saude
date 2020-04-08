@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search {
+    float: right;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: -34px;
+}
+
+.search input.field {
+    padding: 5px;
+    outline: none;
+    font-size: 1em;
+    z-index: 1;
+    width: 220px;
+    position: relative;
+}
+
+.search input.field:focus {
+background-position:top right;
+background-repeat:no-repeat;
+}
+
+.search input.field {
+    background-color: none;
+    border: 1px dashed #000;
+    color: #000;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_search_48px-128.png');
+    background-size: 12%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.search input.field:focus {
+
+}

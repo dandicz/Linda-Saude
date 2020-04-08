@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/* Note: Design for a width 1024 Desktop
+================================================== */
+
+
+@media only screen and (min-width: 1000px) {
+	
+	#menu-scrow{
+height: 40px;
+position: fixed;
+width: 100%;
+display: none;
+z-index:12;
+top: 0px;
+background-color:none;
+}
+#back-menu-scrow{
+background:#77cca4;	
+width: 100%;
+height: 40px;
+z-index: 12;    
+opacity:0.8;
+filter:alpha(opacity=80);
+}
+#menu-scrow-center{
+background: none repeat scroll 0 0 #77cca4;
+height: 40px;
+margin: auto;
+width: 1150px;    
+ opacity:0.8;
+filter:alpha(opacity=80);
+     
+}
+ 
+#menu-scrow-center ul{
+ font-family: Helvetica, sans-serif;
+font-size: 1em;
+height: 40px;
+list-style: none outside none;
+margin: 0;
+padding: 0;
+top: -130px;
+width: 100%;
+z-index: 11;    
+     
+}
+ 
+#menu-scrow-center ul li {
+display: inline;
+}
+ 
+#menu-scrow-center ul li a {
+border: medium none;
+color: #272727;
+float: left;
+	text-align: center;
+ font-family: Helvetica, sans-serif;
+left: 15px;
+padding: 12px 15px 10px 15px;
+position: relative;
+text-decoration: none;
+}
+ 
+#menu-scrow-center ul li a:hover {
+color: #FFF;
+border-bottom:10px solid #535353;
+
+ 
+}
+
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	
+		#menu-scrow{
+display: none;
+	
+	}
+	
+}
+
+
+
+
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	
+	#menu-scrow{
+display: none;
+	
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
